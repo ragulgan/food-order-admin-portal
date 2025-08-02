@@ -1,0 +1,42 @@
+.scroll-table::-webkit-scrollbar {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  // background: #FC8945;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+.dashboard-nav-bg {
+  background-color: #FFFFFF;
+  height: 90% !important;
+}
+
+.dashboard-nav {
+  background: #FFFFFF !important;
+  box-shadow: none !important;
+}
+
+.deliveryImage {
+  width: '20%';
+  height: '20%';
+}
+
+.css-n7rtur-MuiPaper-root-MuiAppBar-root {
+  box-shadow: none !important;
+}
+
+@media (max-width :900px) {
+  .spacing-table {
+    margin-top: 24px !important;
+  }
+}

@@ -1,0 +1,28 @@
+.banner-slider-wrapper {
+    margin-top: 16px;
+    white-space: nowrap;
+}
+
+.banner-image {
+    display: inline-block !important;
+    margin-left: auto !important;
+    margin-bottom: 24px !important;
+    width: auto !important;
+}
+
+.banner-image-img {
+    width: 140px !important;
+    height: 140px !important;
+    border-radius: 18px !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+    object-fit: cover !important;
+}
+
+.css-19kzrtu {
+    padding: 24px 0 24px 0 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #FB640A !important;
+}

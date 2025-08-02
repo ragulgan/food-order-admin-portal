@@ -1,0 +1,14 @@
+image: node:16.14.0
+
+cache:
+  paths:
+  - node_modules/
+
+deploy_production:
+  stage: deploy
+  environment: Production
+  only:
+    - main
+  script:
+    - yarn install
+    - yarn build
